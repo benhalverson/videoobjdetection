@@ -1,3 +1,21 @@
-venv
+# Ignore Python virtual environment
 venv/
+__pycache__/
 
+# Ignore model weights
+*.pt
+
+# Ignore Python bytecode
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
