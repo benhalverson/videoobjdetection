@@ -1,5 +1,12 @@
 # Ignore Python virtual environment
 venv/
+
+rc_car_dataset/images
+runs
+
+*.mov
+*.mp4
+
 __pycache__/
 
 # Ignore model weights
@@ -19,3 +26,4 @@ __pycache__/
 # Ignore system files
 .DS_Store
 Thumbs.db
+
