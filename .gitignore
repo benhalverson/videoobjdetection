@@ -1,3 +1,9 @@
 venv
 venv/
+rc_car_dataset/images
+runs
 
+
+*.pt
+*.mov
+*.mp4

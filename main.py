@@ -5,8 +5,7 @@ def main():
     # Load the YOLOv8 model
     model = YOLO('yolov8n.pt')  # Use yolov8n.pt, yolov8s.pt, etc., based on your needs
     
-    # Initialize video capture (use 0 for webcam, or provide video file path)
-    cap = cv2.VideoCapture(0)  # Change to 'your_video.mp4' for a video file
+    cap = cv2.VideoCapture('./shortVideo.mov')
     
     while cap.isOpened():
         ret, frame = cap.read()
