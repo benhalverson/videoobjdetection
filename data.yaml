@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['rc car']
+
+roboflow:
+  workspace: ben-halverson-mgnbo
+  project: rc-cars-xlkrl
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/ben-halverson-mgnbo/rc-cars-xlkrl/dataset/1

@@ -28,7 +28,7 @@ def extract_frames(video_path: str, output_folder: str, frame_interval=30):
             continue
         
         # Save the frame
-        frame_path = os.path.join(output_folder, f"image_{frame_number:04d}.jpg")
+        frame_path = os.path.join(output_folder, f"F1_{frame_number:04d}.jpg")
         cv2.imwrite(frame_path, frame)
         
         # Increment the frame number
@@ -39,4 +39,4 @@ def extract_frames(video_path: str, output_folder: str, frame_interval=30):
     cv2.destroyAllWindows()
 
 # Extract frames from the video
-extract_frames('./shortVideo.mov', './images' )
+extract_frames('./F1Test.mov', './rc_car_dataset/images' )
